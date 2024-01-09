@@ -1,0 +1,439 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Poppins';
+    line-height: 1.7em;
+
+}
+
+a{
+    text-decoration: none;
+    color: rgb(249, 246, 246);
+}
+
+.container{
+    max-width: 1100px;
+    margin:auto;
+}
+
+.lead{
+    font-size: 16px;
+    padding: 10px 10px;
+    text-align: justify;
+}
+body{
+    background:#080808;
+    color:#fff;
+
+}
+.btn{
+    display: inline-block;
+    padding: 07px 16px;
+    background: rgb(44, 27, 108);;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 03px;
+    color:#f5f3f3;
+    transition: all 0.3;
+}
+
+.clr{
+    clear: both;
+}
+
+/* Close Utality Classes */
+
+#navbar{
+    background: #152e5e;
+    overflow: auto;
+}
+
+#navbar h1{
+    float: left;
+    padding-top: 20px;
+}
+
+#navbar ul{
+    list-style: none;
+    float: right;
+}
+
+#navbar ul li{
+    float: left;
+}
+
+#navbar ul li a{
+    display: block;
+    padding: 20px;
+    text-align: center;
+    transition: all 0.5s;
+}
+
+#navbar ul li a:hover,
+#navbar ul li a.current{
+    background: #0d0d0ddd;
+    transition: all 0.5s;
+}
+
+/* Showcase Area */
+#showcase{
+    background: url('../img/img2.jpg') no-repeat
+    center center/cover;
+    height: 600px;
+    color: #fff;
+}
+
+.showcase-content{
+    padding-top: 170px;
+    color: #f7f6fc;
+}
+.lead{
+    background-color: #080101;
+}
+.showcase-content h2{
+   font-size: 60px;
+   line-height: 1.9em;
+ }
+
+ .showcase-content p{
+    font-size: 20px;
+    margin-bottom: 20px;
+ }
+
+ /*.bg-dark-line{
+    background-color: #e3d4d4;
+    color: #080101;
+ }*/
+ .showcase-content .btn:hover{
+    background: #f1efef;
+    border: none;
+    color:#0f0b0b;
+    transition: all 0.3s;
+ }
+
+/* About Section */
+
+ .about{
+    height: 350px;
+    margin-top: 40px;
+ }
+
+ .about h3{
+    width: 100%;
+    border-bottom: 2px solid  #ddd;
+ }
+
+ .about h3 span{
+    background:  #ddd;;
+    padding: 10px 22px;
+    color: #0a0a0a;
+    text-align: center;
+    display: inline-block;
+ }
+/* Close */
+
+
+#services h3{
+    width: 100%;
+    border-bottom: 0.5px solid #ddd;;
+ }
+
+#services h3 span{
+    background: #ddd;
+    padding: 10px 22px;
+    color: #0b0202;
+    text-align: center;
+    display: inline-block;
+ }
+
+ #services .box{
+    float: left;
+    width: 33.33%;
+    padding: 45px;
+    text-align: center;
+    margin: 30px 0px;
+ }
+
+ .bg-primary{
+    background:#152e5e; 
+    color: #efeded;
+ }
+
+ .light-gray{
+    background: #100f0f;
+ }
+
+ #services h2{
+  margin-bottom: 25px;
+ }
+ .abcd{
+    font-size: 40px;
+    color: #ddd;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+ }
+
+/* Author */
+
+#authors h3{
+    width: 100%;
+    border-bottom: 0.5px solid #ddd;;
+ }
+
+ #authors h3 span{
+    background: #ddd;
+    padding: 10px 22px;
+    color: #333;
+    text-align: center;
+    display: inline-block;
+ }
+
+#authors{
+    background: url('../img/img.jpg') no-repeat center;
+    height: 600px;
+    padding-top: 40px ;
+
+ }
+
+.auth{
+    float: left;
+    height: 500px;
+    width: 33%;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    margin: 20px 01px;
+}
+
+.auth img{
+    border-radius: 50%;
+}
+
+.names{
+    font-weight: bold;
+    font-size: 18px;
+}
+
+/* Contact Us */
+#contact h3{
+    width: 100%;
+    border-bottom: 0.5px solid #ddd;;
+    margin-bottom: 35px;
+}
+
+#contact h3 span{
+    background: #ddd;
+    padding: 10px 22px;
+    color: #333;
+    text-align: center;
+    display: inline-block;
+}
+
+#contact .form-group{
+    margin-bottom: 20px;
+}
+
+.contact-form label{
+    display: block;
+    margin-bottom: 5px;
+}
+
+.contact-form input{
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+}
+
+#contact textarea{
+    height: 200px;
+    width: 100%;
+}
+
+.contact-form input:focus,
+.contact-form textarea:focus{
+    outline: none;
+    border-color: #265ede;
+}
+
+
+/* Footer */
+
+#main-footer{
+    background: #183068;
+    padding: 20px;
+    margin-top: 20px;
+    text-align: center;
+    color:#fff;
+}
+body{
+    margin:0;
+    padding:0;
+    }
+    
+    .logo{  
+    float:left;
+    width: 150px;
+    height: 70px;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*.container
+{
+  width: 100%;
+  margin: auto;
+
+}
+#header{
+    width: 100%;
+    height: 100vh;
+    background-image: url(images/background.png);
+    background-size: cover;
+    background-position: center;
+}
+.container{
+    padding: 50px 10%;
+    
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+nav ul li{
+    display: inline-block;
+    list-style: none;
+    margin: 0px 30px;
+}
+nav ul li a{
+    color: white;
+    text-decoration: none;
+    font-size: 15px;
+    position: relative;
+}
+nav ul li a::after{
+    content:'';
+    width: 0;
+    height: 3px;
+    background: #ff004f;
+    position: absolute;
+    left: 0;
+    bottom: -6px;
+    transition: 0.5s;
+}
+nav ul li a:hover::after{
+    width: 100%;
+}
+.box-1
+{
+    background-color: black;
+    color: white;
+    padding: 10px;
+    border: 10px blue solid;
+    border-left: 5px red solid;
+    border-right: 15px red solid;
+    border-top: 3px skyblue solid;
+    border-bottom: 15px skyblue solid;
+
+}
+.Button
+{
+		text-align: left;
+		background-color: gray;
+		color:black;
+		padding: 1px;
+}
+.Branches
+{
+	border: 5px solid lightgray;
+	background-color: lightblue;
+	padding: 10px;
+	border-radiusmargin: 15px;
+}
+.block1
+{
+ float: auto;
+ width: 25%;
+ background-color: black;
+ color: white;
+ border: 4px solid #ccc;
+ padding: 10px;
+ box-sizing: border-box;
+}
+.block2
+{
+ float: right;
+ width: 65%;
+ background-color: black;
+ color: white;
+ border: 4px solid #ccc;
+ padding: 20px;
+ box-sizing: content-box;
+}
+.block3
+{
+ float: auto;
+ width: 25%;
+ background-color: black;
+ color: white;
+ border: 4px solid #ccc;
+ padding: 10px;
+ box-sizing: border-box;
+}
+.block4
+{
+ float: auto;
+ width: 25%;
+ background-color: black;
+ color: white;
+ border: 4px solid #ccc;
+ padding: 10px;
+ box-sizing: border-box;
+}
+
+ .clr
+{
+  clear: both;
+}
+.p-box
+{
+  background-color: lightblue;
+	width: 350px;
+	height: 350px;
+	border: 4px solid gray;
+	margin-top: 30px;
+	position: absolute;
+}
+.p-box h1
+{
+	position: absolute;
+	top: 100px;
+	left: 150px;
+}
+.p-box h2
+{
+	position: absolute;
+	top: 150px;
+	left: 150px;
+}*/
